@@ -1,1 +1,13 @@
-
+---
+redis:
+  host: 
+    domain: abc.com
+    port: 1234
+    password: abc123
+  expirationMinutes: 99
+CORS:
+  whitelist: abc.com|123.com
+StaticCache:
+  TDMAPI:
+    url: what.com
+  CacheTimeMinutes: 89
